@@ -1,0 +1,18 @@
+:root{
+  --display-xl-size:72px; --display-xl-lh:1.00; /* @kind other */ --display-xl-weight:500; /* @kind other */ --display-xl-track:-0.03em; /* @kind other */
+  --display-l-size:56px;  --display-l-lh:1.05; /* @kind other */  --display-l-weight:500; /* @kind other */  --display-l-track:-0.025em; /* @kind other */
+  --h1-size:40px; --h1-lh:1.10; /* @kind other */ --h1-weight:600; /* @kind other */ --h1-track:-0.02em; /* @kind other */
+  --h2-size:32px; --h2-lh:1.15; /* @kind other */ --h2-weight:600; /* @kind other */ --h2-track:-0.018em; /* @kind other */
+  --h3-size:24px; --h3-lh:1.25; /* @kind other */ --h3-weight:600; /* @kind other */ --h3-track:-0.012em; /* @kind other */
+  --h4-size:20px; --h4-lh:1.30; /* @kind other */ --h4-weight:600; /* @kind other */ --h4-track:-0.008em; /* @kind other */
+  --body-l-size:18px; --body-l-lh:1.60; /* @kind other */ --body-l-weight:400; /* @kind other */ --body-l-track:0; /* @kind other */
+  --body-size:16px; --body-lh:1.65; /* @kind other */ --body-weight:400; /* @kind other */ --body-track:0; /* @kind other */
+  --body-s-size:14px; --body-s-lh:1.60; /* @kind other */ --body-s-weight:400; /* @kind other */ --body-s-track:0; /* @kind other */
+  --caption-size:13px; --caption-lh:1.45; /* @kind other */ --caption-weight:400; /* @kind other */ --caption-track:0.005em; /* @kind other */
+  --overline-size:11px; --overline-lh:1.20; /* @kind other */ --overline-weight:600; /* @kind other */ --overline-track:0.12em; /* @kind other */
+  --mono-size:13px; --mono-lh:1.50; /* @kind other */ --mono-weight:400; /* @kind other */ --mono-track:0; /* @kind other */
+  --weight-regular:400; /* @kind other */ --weight-medium:500; /* @kind other */ --weight-semibold:600; /* @kind other */
+  --measure-prose:72ch; /* @kind other */ --measure-display:40ch; /* @kind other */
+}
+@media (max-width:1023px){:root{--display-xl-size:56px;--display-l-size:44px;--h1-size:34px;--h2-size:28px;--h3-size:22px}}
+@media (max-width:767px){:root{--display-xl-size:40px;--display-l-size:34px;--h1-size:28px;--h2-size:24px;--h3-size:20px}}

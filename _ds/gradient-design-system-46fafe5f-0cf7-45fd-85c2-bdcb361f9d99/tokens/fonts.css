@@ -1,0 +1,10 @@
+/* Fonts — Bricolage Grotesque (display), Inter (body/UI), IBM Plex Mono (data).
+   No font binaries were supplied with DESIGN.md; all three are OFL and loaded from
+   Google Fonts. Swap these @import lines for local @font-face rules if you ship binaries. */
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+
+:root{
+  --font-display:"Bricolage Grotesque","Inter",system-ui,sans-serif;
+  --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,"SF Mono",monospace;
+}

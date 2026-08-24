@@ -1,0 +1,12 @@
+:root{
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:20px;
+  --space-6:24px; --space-8:32px; --space-10:40px; --space-12:48px; --space-16:64px;
+  --space-20:80px; --space-24:96px; --space-32:128px;
+  --radius-xs:5px; --radius-sm:8px; --radius-md:10px; --radius-lg:14px; --radius-xl:18px; --radius-full:999px;
+  --container-content:1200px; --container-wide:1440px; --container-prose:720px;
+  --grid-columns:12; /* @kind other */ --grid-gutter:24px; --grid-gutter-sm:16px;
+  --page-pad-sm:24px; --page-pad-md:40px; --page-pad-lg:64px;
+  --control-h-sm:32px; --control-h:40px; --control-h-lg:48px;
+  --sidebar-w:260px; --sidebar-w-collapsed:64px; --topbar-h:64px;
+  --bp-sm:480px; --bp-md:768px; --bp-lg:1024px; --bp-xl:1280px; --bp-2xl:1536px;
+}

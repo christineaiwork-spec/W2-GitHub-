@@ -1,0 +1,10 @@
+:root{
+  --ease-out:cubic-bezier(0.2,0,0,1); /* @kind other */
+  --ease-overlay:cubic-bezier(0.16,1,0.3,1); /* @kind other */
+  --dur-micro:160ms; /* @kind other */
+  --dur-component:200ms; /* @kind other */
+  --dur-overlay:280ms; /* @kind other */
+  --dur-page:320ms; /* @kind other */
+  --travel-max:8px; /* @kind other */
+}
+@media (prefers-reduced-motion:reduce){:root{--dur-micro:1ms; /* @kind other */--dur-component:1ms; /* @kind other */--dur-overlay:1ms; /* @kind other */--dur-page:1ms; /* @kind other */--travel-max:0px}}
